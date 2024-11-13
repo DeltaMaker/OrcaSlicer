@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "DeltaMaker 2",
+    "model_id": "DeltaMaker-2",
+    "nozzle_diameter": "0.35",
+    "machine_tech": "FFF",
+    "family": "DeltaMaker 2",
+    "bed_model": "deltamaker_2_buildplate_model.stl",
+    "bed_texture": "deltamaker_2_buildplate_texture.png",
+    "hotend_model": "deltamaker_hotend.stl",
+	"default_materials": "DeltaMaker PLA;DeltaMaker PETG;DeltaMaker TPU"
+}
