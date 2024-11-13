@@ -1,74 +1,58 @@
 {
     "name": "DeltaMaker",
-    "version": "01.07.00.00",
+    "version": "01.08.00.00",
     "force_update": "0",
     "description": "DeltaMaker configurations",
     "machine_model_list": [
         {
             "name": "DeltaMaker 2",
             "sub_path": "machine/deltamaker_2.json"
-        },
-        {
-            "name": "DeltaMaker 2T",
-            "sub_path": "machine/deltamaker_2t.json"
-        },
-        {
-            "name": "DeltaMaker 2XT",
-            "sub_path": "machine/dekltamaker_2xt.json"
-        },
-        {
-            "name": "DeltaMaker Pro",
-            "sub_path": "machine/deltamaker_18x12.json"
         }
     ],
   "process_list": [
-    {
-      "name": "process template",
-      "sub_path": "process/process template.json"
-    }
+      {
+          "name": "0.20mm Standard @DeltaMaker 2 0.35 nozzle",
+          "sub_path": "process/0.20mm Standard @DeltaMaker 2 0.35 nozzle.json"
+      },
+      {
+          "name": "fdm_process_common",
+          "sub_path": "process/fdm_process_common.json"
+      },
+      {
+          "name": "fdm_process_klipper_common",
+          "sub_path": "process/fdm_process_klipper_common.json"
+      }
   ],
   "filament_list": [
-    {
-      "name": "filament_abs_template",
-      "sub_path": "filament/filament_abs_template.json"
+      {
+        "name": "fdm_filament_common",
+        "sub_path": "filament/fdm_filament_common.json"
+      },
+      {
+        "name": "fdm_filament_pla",
+        "sub_path": "filament/fdm_filament_pla.json"
+      },
+      {
+        "name": "fdm_filament_tpu",
+        "sub_path": "filament/fdm_filament_tpu.json"
+      },
+      {
+        "name": "fdm_filament_pet",
+        "sub_path": "filament/fdm_filament_pet.json"
     },
     {
-      "name": "filament_asa_template",
-      "sub_path": "filament/filament_asa_template.json"
-    },
-    {
-      "name": "filament_hips_template",
-      "sub_path": "filament/filament_hips_template.json"
-    },
-    {
-      "name": "filament_pa_template",
-      "sub_path": "filament/filament_pa_template.json"
-    },
-    {
-      "name": "filament_pet_template",
-      "sub_path": "filament/filament_pet_template.json"
-    },
-    {
-      "name": "filament_pla_template",
-      "sub_path": "filament/filament_pla_template.json"
-    },
-    {
-      "name": "filament_ppa_template",
-      "sub_path": "filament/filament_ppa_template.json"
-    },
-    {
-      "name": "filament_pps_template",
-      "sub_path": "filament/filament_pps_template.json"
-    },
-    {
-      "name": "filament_pva_template",
-      "sub_path": "filament/filament_pva_template.json"
-    },
-    {
-      "name": "filament_tpu_template",
-      "sub_path": "filament/filament_tpu_template.json"
+        "name": "DeltaMaker PLA",
+        "sub_path": "filament/DeltaMaker PLA.json"
     }
   ],
-    "machine_list": [
+  "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "DeltaMaker 2 0.35 nozzle",
+            "sub_path": "machine/deltamaker_2_0.35_nozzle.json"
+        }
     ]
 }
