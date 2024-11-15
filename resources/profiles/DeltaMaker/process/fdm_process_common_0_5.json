@@ -1,0 +1,21 @@
+{
+    "type": "process",
+    "name": "fdm_process_common_0_5",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_process_common",
+    "initial_layer_line_width": "0.62",
+    "initial_layer_print_height": "0.25",
+    "outer_wall_line_width": "0.54",
+    "line_width": "0.54",
+    "sparse_infill_line_width": "0.54",
+    "inner_wall_line_width": "0.54",
+    "internal_solid_infill_line_width": "0.54",
+    "support_line_width": "0.54",
+    "top_surface_line_width": "0.54",
+    "compatible_printers": [
+      "DeltaMaker 2 0.5 nozzle",
+      "DeltaMaker 2T 0.5 nozzle",
+      "DeltaMaker 2XT 0.5 nozzle"
+    ]
+}

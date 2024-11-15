@@ -7,13 +7,27 @@
         {
             "name": "DeltaMaker 2",
             "sub_path": "machine/deltamaker_2.json"
+        },
+        {
+            "name": "DeltaMaker 2T",
+            "sub_path": "machine/deltamaker_2.json"
+        },
+        {
+            "name": "DeltaMaker 2XT",
+            "sub_path": "machine/deltamaker_2.json"
         }
     ],
-  "process_list": [
-      {
-          "name": "0.20mm Standard @DeltaMaker 2 0.35 nozzle",
-          "sub_path": "process/0.20mm Standard @DeltaMaker 2 0.35 nozzle.json"
-      },
+    "machine_list": [
+          {
+              "name": "fdm_machine_common",
+              "sub_path": "machine/fdm_machine_common.json"
+          },
+          {
+              "name": "DeltaMaker 2 0.35 nozzle",
+              "sub_path": "machine/deltamaker_2_0.35_nozzle.json"
+          }
+      ],
+    "process_list": [
       {
           "name": "fdm_process_common",
           "sub_path": "process/fdm_process_common.json"
@@ -21,22 +35,26 @@
       {
           "name": "fdm_process_klipper_common",
           "sub_path": "process/fdm_process_klipper_common.json"
-      }
-  ],
-  "filament_list": [
-      {
-        "name": "fdm_filament_common",
-        "sub_path": "filament/fdm_filament_common.json"
       },
       {
+          "name": "0.20mm Standard @DeltaMaker 2 0.35 nozzle",
+          "sub_path": "process/0.20mm Standard @DeltaMaker 2 0.35 nozzle.json"
+      }
+    ],
+    "filament_list": [
+    {
+      "name": "fdm_filament_common",
+      "sub_path": "filament/fdm_filament_common.json"
+    },
+    {
         "name": "fdm_filament_pla",
         "sub_path": "filament/fdm_filament_pla.json"
-      },
-      {
+    },
+    {
         "name": "fdm_filament_tpu",
         "sub_path": "filament/fdm_filament_tpu.json"
-      },
-      {
+    },
+    {
         "name": "fdm_filament_pet",
         "sub_path": "filament/fdm_filament_pet.json"
     },
@@ -44,15 +62,5 @@
         "name": "DeltaMaker PLA",
         "sub_path": "filament/DeltaMaker PLA.json"
     }
-  ],
-  "machine_list": [
-        {
-            "name": "fdm_machine_common",
-            "sub_path": "machine/fdm_machine_common.json"
-        },
-        {
-            "name": "DeltaMaker 2 0.35 nozzle",
-            "sub_path": "machine/deltamaker_2_0.35_nozzle.json"
-        }
-    ]
+  ]
 }
