@@ -7,6 +7,6 @@
     "family": "DeltaMaker",
     "bed_model": "deltamaker_2_buildplate_model.stl",
     "bed_texture": "deltamaker_2_buildplate_texture.png",
-	"default_materials": "DeltaMaker PLA;DeltaMaker PETG;DeltaMaker TPU"
+	"default_materials": "DeltaMaker PLA"
 }
 
