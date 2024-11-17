@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "filament_id": "DM299",
+    "setting_id": "DMSL99",
+    "name": "DeltaMaker TPU",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_filament_tpu",
+    "filament_flow_ratio": ["0.98"],
+    "filament_max_volumetric_speed": ["12"],
+    "slow_down_layer_time": ["4"],
+    "nozzle_temperature": ["230"],
+    "compatible_printers": []
+}

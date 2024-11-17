@@ -1,0 +1,11 @@
+{
+    "type": "machine_model",
+    "name": "DeltaMaker Pro",
+    "model_id": "deltaMaker_pro",
+    "nozzle_diameter": "0.5;0.6;0.8;1.0",
+    "machine_tech": "FFF",
+    "family": "DeltaMaker",
+    "bed_model": "deltamaker_pro_buildplate_model.stl",
+    "bed_texture": "deltamaker_pro_buildplate_texture.png",
+    "default_materials": "DeltaMaker PLA;DeltaMaker PETG;DeltaMaker TPU"
+}
