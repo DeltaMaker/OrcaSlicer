@@ -11,13 +11,13 @@
 		"0.4"
 	],
 	"printable_area": [
-		"0x0",
-		"224x0",
-		"224x225",
-		"0x225"
+		"-138x-120",
+		"-138x120",
+		"138x120",
+		"138x-120"
 	],
-	"printable_height": "212",
-	"nozzle_type": "undefine",
+	"printable_height": "260",
+	"nozzle_type": "undefined",
 	"auxiliary_fan": "0",
 	"machine_max_acceleration_extruding": [
 		"1500",
