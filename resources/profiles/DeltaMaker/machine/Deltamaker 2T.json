@@ -1,7 +1,7 @@
 {
     "type": "machine_model",
-    "name": "DeltaMaker 2",
-    "model_id": "DeltaMaker-2",
+    "name": "DeltaMaker 2T",
+    "model_id": "deltamaker_2T",
     "nozzle_diameter": "0.35;0.5",
     "machine_tech": "FFF",
     "family": "DeltaMaker",

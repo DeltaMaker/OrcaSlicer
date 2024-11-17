@@ -1,7 +1,7 @@
 {
     "type": "machine_model",
     "name": "DeltaMaker Pro",
-    "model_id": "DeltaMaker-Pro",
+    "model_id": "deltaMaker_pro",
     "nozzle_diameter": "0.5;0.6;0.8;1.0",
     "machine_tech": "FFF",
     "family": "DeltaMaker",

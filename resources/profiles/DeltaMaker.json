@@ -6,15 +6,15 @@
     "machine_model_list": [
         {
             "name": "DeltaMaker 2",
-            "sub_path": "machine/deltamaker_2.json"
+            "sub_path": "machine/DeltMmaker 2.json"
         },
         {
             "name": "DeltaMaker 2T",
-            "sub_path": "machine/deltamaker_2.json"
+            "sub_path": "machine/DeltaMaker 2T.json"
         },
         {
             "name": "DeltaMaker 2XT",
-            "sub_path": "machine/deltamaker_2.json"
+            "sub_path": "machine/DeltaMaker 2XT.json"
         }
     ],
     "machine_list": [
@@ -25,6 +25,18 @@
           {
               "name": "DeltaMaker 2 0.35 nozzle",
               "sub_path": "machine/deltamaker_2_0.35_nozzle.json"
+          },
+          {
+              "name": "DeltaMaker 2 0.5 nozzle",
+              "sub_path": "machine/deltamaker_2_0.5_nozzle.json"
+          },
+          {
+              "name": "DeltaMaker 2T 0.5 nozzle",
+              "sub_path": "machine/deltamaker_2_0.5_nozzle.json"
+          },
+          {
+              "name": "DeltaMaker 2XT 0.5 nozzle",
+              "sub_path": "machine/deltamaker_2XT_0.5_nozzle.json"
           }
       ],
     "process_list": [
@@ -37,8 +49,12 @@
           "sub_path": "process/fdm_process_klipper_common.json"
       },
       {
-          "name": "0.20mm Standard @DeltaMaker 2 0.35 nozzle",
-          "sub_path": "process/0.20mm Standard @DeltaMaker 2 0.35 nozzle.json"
+          "name": "0.20mm Standard 0.35 nozzle @DeltaMaker",
+          "sub_path": "process/0.20mm Standard 0.35 nozzle @DeltaMaker.json"
+      },
+      {
+          "name": "0.20mm Standard 0.5 nozzle @DeltaMaker",
+          "sub_path": "process/0.20mm Standard 0.5 nozzle @DeltaMaker.json"
       }
     ],
     "filament_list": [
@@ -61,6 +77,14 @@
     {
         "name": "DeltaMaker PLA",
         "sub_path": "filament/DeltaMaker PLA.json"
+    },
+    {
+        "name": "DeltaMaker PETG",
+        "sub_path": "filament/DeltaMaker PETG.json"
+    },
+    {
+        "name": "DeltaMaker TPU",
+        "sub_path": "filament/DeltaMaker TPU.json"
     }
   ]
 }
