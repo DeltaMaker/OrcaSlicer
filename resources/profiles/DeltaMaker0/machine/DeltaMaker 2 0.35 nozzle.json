@@ -1,0 +1,21 @@
+{
+	"type": "machine",
+	"setting_id": "DM003",
+	"name": "DeltaMaker 2 0.35 nozzle",
+	"from": "system",
+	"instantiation": "true",
+	"inherits": "fdm_machine_common",
+	"printer_model": "DeltaMaker 2",
+    "max_layer_height": ["0.28"],
+    "min_layer_height": ["0.10"],
+	"nozzle_diameter": ["0.35"],
+	"printable_area": [
+		"138x0",
+		"69x-120",
+		"-69x-120"
+		"-138x0",
+		"-69x120",
+		"69x120"
+	],
+	"printable_height": "260",
+}

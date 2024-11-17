@@ -1,0 +1,16 @@
+{
+    "type": "filament",
+    "filament_id": "DM101",
+    "setting_id": "DM201",
+    "name": "DeltaMaker PLA",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_filament_pla",
+    "filament_flow_ratio": ["0.98"],
+    "filament_max_volumetric_speed": ["12"],
+    "slow_down_layer_time": ["4"],
+    "nozzle_temperature": ["230"],
+    "compatible_printers": [
+        "DeltaMaker 2 0.35 Nozzle",
+    ]
+}
