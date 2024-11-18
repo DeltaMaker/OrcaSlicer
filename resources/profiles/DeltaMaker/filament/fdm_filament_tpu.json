@@ -1,6 +1,6 @@
 {
     "type": "filament",
-    "name": "fdm_filament_abs",
+    "name": "fdm_filament_tpu",
     "from": "system",
     "instantiation": "false",
     "inherits": "fdm_filament_common",

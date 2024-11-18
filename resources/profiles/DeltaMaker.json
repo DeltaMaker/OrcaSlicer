@@ -34,10 +34,6 @@
             "sub_path": "filament/fdm_filament_common.json"
         },
         {
-            "name": "fdm_filament_abs",
-            "sub_path": "filament/fdm_filament_abs.json"
-        },
-        {
             "name": "fdm_filament_pet",
             "sub_path": "filament/fdm_filament_pet.json"
         },
@@ -46,8 +42,8 @@
             "sub_path": "filament/fdm_filament_pla.json"
         },
         {
-            "name": "DeltaMaker Generic ABS",
-            "sub_path": "filament/DeltaMaker Generic ABS.json"
+            "name": "fdm_filament_tpu",
+            "sub_path": "filament/fdm_filament_tpu.json"
         },
         {
             "name": "DeltaMaker Generic PETG",
@@ -56,6 +52,10 @@
         {
             "name": "DeltaMaker Generic PLA",
             "sub_path": "filament/DeltaMaker Generic PLA.json"
+        },
+        {
+            "name": "DeltaMaker Generic TPU",
+            "sub_path": "filament/DeltaMaker Generic TPU.json"
         }
     ],
     "machine_list": [
