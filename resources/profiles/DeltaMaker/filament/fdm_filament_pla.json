@@ -20,7 +20,7 @@
         "20"
     ],
     "cool_plate_temp" : [
-        "60"
+        "0"
     ],
     "eng_plate_temp" : [
         "60"
@@ -32,7 +32,7 @@
         "60"
     ],
     "cool_plate_temp_initial_layer" : [
-        "55"
+        "0"
     ],
     "eng_plate_temp_initial_layer" : [
         "55"
