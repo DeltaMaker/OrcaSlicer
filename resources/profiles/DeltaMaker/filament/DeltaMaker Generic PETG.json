@@ -40,6 +40,6 @@
         "; filament start gcode\n"
     ],
 	"compatible_printers": [
-		"DeltaMaker 2 0.4 nozzle"
+		"DeltaMaker 2 0.5 nozzle"
 	]
 }

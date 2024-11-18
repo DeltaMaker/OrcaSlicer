@@ -5,7 +5,7 @@
     "instantiation": "false",
     "inherits": "fdm_filament_common",
     "cool_plate_temp" : [
-        "85"
+        "0"
     ],
     "eng_plate_temp" : [
         "85"
@@ -17,7 +17,7 @@
         "85"
     ],
     "cool_plate_temp_initial_layer" : [
-        "85"
+        "0"
     ],
     "eng_plate_temp_initial_layer" : [
         "85"

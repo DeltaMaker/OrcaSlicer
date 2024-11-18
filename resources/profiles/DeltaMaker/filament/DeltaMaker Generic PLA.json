@@ -20,9 +20,9 @@
         "0"
     ],
     "filament_vendor": ["DeltaMaker"],
-	"nozzle_temperature": ["235"],
+	"nozzle_temperature": ["230"],
     "nozzle_temperature_initial_layer": ["235"],
 	"compatible_printers": [
-		"DeltaMaker 2 0.4 nozzle"
+		"DeltaMaker 2 0.35 nozzle"
 	]
 }
