@@ -58,7 +58,7 @@
         "1.25"
     ],
     "filament_deretraction_speed": [
-        "nil"
+        "150"
     ],
     "filament_diameter": [
         "1.75"
@@ -70,28 +70,28 @@
         "15"
     ],
     "filament_retraction_minimum_travel": [
-        "nil"
+        "3.0"
     ],
     "filament_retract_before_wipe": [
-        "nil"
+        "1"
     ],
     "filament_retract_when_changing_layer": [
-        "nil"
+        "0"
     ],
     "filament_retraction_length": [
-        "nil"
+        "8.0"
     ],
     "filament_z_hop": [
-        "nil"
+        "0.8"
     ],
     "filament_z_hop_types": [
         "nil"
     ],
     "filament_retract_restart_extra": [
-        "nil"
+        "0.0"
     ],
     "filament_retraction_speed": [
-        "nil"
+        "150"
     ],
     "filament_settings_id": [
         "DeltaMaker Generic PLA"
@@ -106,10 +106,10 @@
         "DeltaMaker"
     ],
     "filament_wipe": [
-        "nil"
+        "1"
     ],
     "filament_wipe_distance": [
-        "nil"
+        "8.0"
     ],
     "bed_type": [
         "Cool Plate"

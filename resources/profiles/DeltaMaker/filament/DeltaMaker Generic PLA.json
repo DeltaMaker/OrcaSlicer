@@ -6,23 +6,16 @@
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pla",
-
-	"filament_flow_ratio": [
-        "0.987"
-    ],
-    "filament_max_volumetric_speed": [
-        "10"
-    ],
-    "slow_down_layer_time": [
-        "8"
-    ],
-	"hot_plate_temp_initial_layer": [
-        "0"
-    ],
+	"filament_flow_ratio": ["0.987"],
+    "filament_max_volumetric_speed": ["10"],
+    "slow_down_layer_time": ["8"],
+    "hot_plate_temp_initial_layer": ["0"],
     "filament_vendor": ["DeltaMaker"],
-	"nozzle_temperature": ["230"],
+    "nozzle_temperature_range_low": ["210"],
+    "nozzle_temperature_range_high": ["235"],
+    "nozzle_temperature": ["230"],
     "nozzle_temperature_initial_layer": ["235"],
-	"compatible_printers": [
-		"DeltaMaker 2 0.35 nozzle"
-	]
+    "compatible_printers": [
+        "DeltaMaker 2 0.35 nozzle"
+    ]
 }
