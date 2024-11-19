@@ -46,12 +46,16 @@
             "sub_path": "filament/fdm_filament_tpu.json"
         },
         {
-            "name": "DeltaMaker Generic PETG",
-            "sub_path": "filament/DeltaMaker Generic PETG.json"
+            "name": "DeltaMaker Brand PLA",
+            "sub_path": "filament/DeltaMaker Brand PLA.json"
         },
         {
             "name": "DeltaMaker Generic PLA",
             "sub_path": "filament/DeltaMaker Generic PLA.json"
+        },
+        {
+            "name": "DeltaMaker Generic PETG",
+            "sub_path": "filament/DeltaMaker Generic PETG.json"
         },
         {
             "name": "DeltaMaker Generic TPU",

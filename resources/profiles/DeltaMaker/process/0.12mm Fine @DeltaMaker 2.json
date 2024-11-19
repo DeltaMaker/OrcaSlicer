@@ -20,8 +20,6 @@
     "tree_support_branch_angle": "40",
     "detect_thin_wall": "1",
     "top_shell_layers": "7",
-    "initial_layer_speed": "35%",
-    "initial_layer_infill_speed": "35%",
     "travel_speed": "150",
     "compatible_printers": [
         "DeltaMaker 2 0.35 nozzle"
