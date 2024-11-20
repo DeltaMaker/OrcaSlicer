@@ -16,6 +16,6 @@
     "nozzle_temperature_initial_layer": ["235"],
     "compatible_printers": [
         "DeltaMaker 2 0.35 nozzle",
-        "DeltaMaker 0.5 nozzle"
+        "DeltaMaker 2T 0.5 nozzle"
     ]
 }

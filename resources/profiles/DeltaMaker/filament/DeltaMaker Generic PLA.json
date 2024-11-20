@@ -11,6 +11,6 @@
     "slow_down_layer_time": ["8"],
     "compatible_printers": [
         "DeltaMaker 2 0.35 nozzle",
-        "DeltaMaker 0.5 nozzle"
+        "DeltaMaker 2T 0.5 nozzle"
     ]
 }
