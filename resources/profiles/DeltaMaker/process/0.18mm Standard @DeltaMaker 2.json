@@ -20,7 +20,6 @@
     "skirt_loops": "2",
     "support_style": "grid",
     "support_top_z_distance": "0.2",
-    "support_interface_bottom_layers": "-1",
     "support_interface_spacing": "0.2",
     "support_base_pattern": "rectilinear",
     "detect_thin_wall": "1",

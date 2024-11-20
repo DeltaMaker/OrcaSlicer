@@ -47,7 +47,7 @@
     "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
     "machine_pause_gcode": "",
-    "machine_start_gcode": "M104 S[nozzle_temperature_initial_layer] ; set temp\nG28\nM109 S[nozzle_temperature_initial_layer] ; wait for temp\nG28\nG91 ; relative positioning\nG1 Z-40\nG90 ; absolute positioning\n",
+    "machine_start_gcode": "M104 S[nozzle_temperature_initial_layer] ; set temp\nG28\nM109 S[nozzle_temperature_initial_layer] ; wait for temp\nG28\nG91 ; relative positioning\nG1 Z-40 F4000\nG90 ; absolute positioning\n",
     "machine_end_gcode": "G28\nM104 S0\nM84 ; disable motors"
 }
 
