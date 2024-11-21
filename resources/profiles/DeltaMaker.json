@@ -12,6 +12,10 @@
         {
             "name": "DeltaMaker 2T",
             "sub_path": "machine/DeltaMaker 2T.json"
+        },
+        {
+            "name": "DeltaMaker 2XT",
+            "sub_path": "machine/DeltaMaker 2XT.json"
         }
     ],
     "process_list": [
@@ -78,6 +82,10 @@
         {
             "name": "DeltaMaker 2T 0.5 nozzle",
             "sub_path": "machine/DeltaMaker 2T 0.5 nozzle.json"
+        },
+        {
+            "name": "DeltaMaker 2XT 0.5 nozzle",
+            "sub_path": "machine/DeltaMaker 2XT 0.5 nozzle.json"
         }
     ]
 }
